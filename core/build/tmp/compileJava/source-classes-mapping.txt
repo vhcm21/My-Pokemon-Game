@@ -1,10 +1,10 @@
 com/mygdx/game/Picture.java
  com.mygdx.game.Picture
+com/mygdx/game/Pokemon.java
+ com.mygdx.game.Pokemon
 com/mygdx/game/Player.java
  com.mygdx.game.Player
 com/mygdx/game/Field.java
  com.mygdx.game.Field
 com/mygdx/game/MyGdxGame.java
  com.mygdx.game.MyGdxGame
-com/mygdx/game/Pokemon.java
- com.mygdx.game.Pokemon

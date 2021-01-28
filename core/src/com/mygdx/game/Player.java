@@ -34,5 +34,6 @@ public class Player {
         } while (!ids.contains(String.valueOf(n)));
         ids.remove(String.valueOf(n));
         pokemons[pos] = new Pokemon(n);
+        MyGdxGame.stage.addActor(pokemons[pos]);
     }
 }

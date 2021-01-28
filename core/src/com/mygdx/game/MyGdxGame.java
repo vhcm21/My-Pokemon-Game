@@ -9,7 +9,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 	public static Stage stage;
 
-	private Field whiteTiles;
+	private Field field;
 
 	private Player p1;
 	private Player p2;
@@ -18,8 +18,8 @@ public class MyGdxGame extends ApplicationAdapter {
 	public void create() {
 		stage = new Stage();
 		Gdx.input.setInputProcessor(stage);
-		whiteTiles = new Field();
-		whiteTiles.drawPicture();
+		field = new Field();
+		field.drawPicture();
 		p1 = new Player();
 		p2 = new Player();
 		p1.instantiatePokemons();
